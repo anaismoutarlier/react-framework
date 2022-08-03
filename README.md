@@ -4,9 +4,9 @@ structure:
 ###   src
   - _pages/screens_
       - major pages
-      - unique components (specific to one view, not to be reused outside of this)
-      - CSS
-      - index.js (export pages and components in case of need)
+        - unique components (specific to one view, not to be reused outside of this)
+        - CSS
+        - index.js (export pages and components in case of need)
   - _components_ 
       - reusable component folder
         - component file
