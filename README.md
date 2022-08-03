@@ -8,11 +8,11 @@ structure:
       - CSS
       - index.js (export pages and components in case of need)
   - _components_ 
-        - reusable component folder
-            - component file
-            - CSS
-            - index.js (export component from folder)
-        - index.js (optional) export all reusable components from components folder
+      - reusable component folder
+        - component file
+        - CSS
+        - index.js (export component from folder)
+      - index.js (optional) export all reusable components from components folder
   - _reducers_
       - Redux store reducers (**.reducer.js)
       - index.js (export all reducers as one)
@@ -45,6 +45,6 @@ structure:
       - js files with static data
   - _context/hooks_
       - functionality
-          - hook file (.js)
-          - context file (.js)
-          - index.js (export hook and/or context)
+        - hook file (.js)
+        - context file (.js)
+        - index.js (export hook and/or context)
