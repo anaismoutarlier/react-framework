@@ -1,4 +1,4 @@
-structure:
+# COMMON REACT FRAMEWORK STRUCTURES
 
 ## 1. Styles integrated with components, contexts/hooks apart
 ###   src
