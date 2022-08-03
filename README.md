@@ -1,16 +1,16 @@
 structure:
 
 1. Styles integrated with components, contexts/hooks apart
-src
-  --pages
-    --major pages
-      --unique components (specific to one view, not to be reused outside of this)
-      --CSS
-      --index.js (export pages and components in case of need)
-  --components
-    --reusable components
-      --component file
-      --CSS
+    src
+        - pages
+            - major pages
+        - unique components (specific to one view, not to be reused outside of this)
+            - CSS
+        - index.js (export pages and components in case of need)
+        - components
+            - reusable components
+                - component file
+                - CSS
       --index.js (export component from folder)
     --index.js (optional) export all reusable components from components folder
   --reducers
