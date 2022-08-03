@@ -28,7 +28,7 @@ export default function Home() {
   return (
     <div>
       <Menu tabs={tabs} setCurrentTab={setCurrentTab} currentTab={currentTab} />
-      <Section children={ tabs[currentTab].children } />
+      <Section children={tabs[currentTab].children} />
     </div>
   );
 }

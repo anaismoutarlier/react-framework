@@ -5,7 +5,9 @@ export const Menu = ({ currentTab, setCurrentTab, tabs }) => {
     <div className="home-menu">
       {tabs.map(tab => (
         <div
-          className={ `home-menu-button${currentTab === tab.id ? ` current-tab` : ""}`}
+          className={`home-menu-button${
+            currentTab === tab.id ? ` current-tab` : ""
+          }`}
           key={tab.id}
           onClick={() => setCurrentTab(tab.id)}
         >
@@ -14,4 +16,4 @@ export const Menu = ({ currentTab, setCurrentTab, tabs }) => {
       ))}
     </div>
   );
-}
+};
