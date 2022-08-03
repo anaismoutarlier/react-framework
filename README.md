@@ -1,7 +1,7 @@
 structure:
 
 1. Styles integrated with components, contexts/hooks apart
-    src
+    - src
         - pages
             - major pages
         - unique components (specific to one view, not to be reused outside of this)
