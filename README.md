@@ -1,7 +1,7 @@
 structure:
 
-1. Styles integrated with components, contexts/hooks apart
-    - **src**
+## 1. Styles integrated with components, contexts/hooks apart
+    - ### **src**
         - _pages/screens_
             - major pages
             - unique components (specific to one view, not to be reused outside of this)
@@ -28,7 +28,7 @@ structure:
             - context config files
 
 2. Styles and hooks by theme/component
-    - src
+    - **src**
         - _pages/screens_
             - major pages - page JS files
         - _components_
