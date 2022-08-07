@@ -1,0 +1,7 @@
+{
+  "package": {
+    "dependencies": {
+      "socket.io-client": "^4.5.1"
+    }
+  }
+}
